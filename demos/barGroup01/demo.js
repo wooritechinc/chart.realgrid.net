@@ -1,115 +1,116 @@
-$(function () {
-	new ChartWeb.ChartView('chartviewhtml',
-		 {
-			"type": "bar",
-			"palettes":[{
-				"name": "blue",
-				"colors":"#0080e0"
-				}, {
-				"name": "black",
-				"colors":"#000000"
-				}, {
-				"name": "green",
-				"colors":"#aadf10"
-				}
-			],				
-			"title": {
-				"caption": "«œπ›±‚ ªÁø¯∫∞ ∆«∏≈ Ω«¿˚ «ˆ»≤",
-				"styles": {
-					"textColor": "#f00000"
-				},
-				"subTitle":{
-					"position": "bottom",
-					"text": "∏Ò«•: ¿¸ø˘¥Î∫Ò 10% ¿ÃªÛ",
-					"styles": {
-						"textAlign": "center",
-						"textColor": "#2ab6da"				
-					}
-				}
-			},
-			"yAxes": {
-				"title": {
-					"styles":{
-						"visible": false
-					}
-				},
-				"categories": ["ƒƒ«ª≈Õ", "∏¥œ≈Õ", "≈∞∫∏µÂ", "∏∂øÏΩ∫", "∏¥œ≈Õπﬁƒß¥Î"]
-			},
-			"xAxes": {
-				"title": {
-					"caption": "Ω«¡¶ ∆«∏≈Ω«¿˚",
-					"styles":{
-						"textColor": "#389f2c"
-					}
-				},
-				"baseValue": 0,
-				"styles": {
-					"grid": {
-						"stroke": "#18000000"
-					}
-				}
-			},
-			"seriesGroups": {
-				"name": "group1",
-				"stackMode": "normal",
-				"label": {
-					"styles": {
-					},
-					"items": [
-					]
-				}
-			},
-			"series": [{
-				"name": "øµæ˜ªÁø¯1",
-				"group": "group1",
-				"items": [17, 13, 16, 13, 17],
-				"styles": {
-					"fill": "pal(blue)",
-					"fillAlpha": 0.7,
-					"strokeAlpha": 1,
-					"label": {
-						"horizontalAlign": "left",
-						"textColor": "#eeeeee"
-					}
-				},
-				"animations": [{
-					"property": "mask"
-				}]
-				}, {
-				"name": "øµæ˜ªÁø¯2",
-				"group": "group1",
-				"items": [20, 20, 20, 20, 20],
-				"styles": {
-					"fill": "pal(black)",
-					"fillAlpha": 0.7,
-					"strokeAlpha": 1,
-					"label": {
-						"horizontalAlign": "left",
-						"textColor": "#dddddd"
-					}
-				},
-				"animations": [{
-					"property": "mask"
-				}]
-				}, {
-				"name": "øµæ˜ªÁø¯3",
-				"group": "group1",
-				"items": [13, 11, 20, 12, 11],
-				"styles": {
-					"fill": "pal(green)",
-					"fillAlpha": 0.7,
-					"strokeAlpha": 1,
-					"label": {
-						"horizontalAlign": "left",
-						"textColor": "#008800"
-					}
-				},
-				"animations": [{
-					"property": "mask"
-				}]
-			}],
-			"legend": {
-			}
-		}
-	);
+Ôªø$(function () {
+        new ChartWeb.ChartView('chartviewhtml',
+             {
+                "type": "bar",
+                "palettes":[{
+                    "name": "blue",
+                    "colors":"#0080e0"
+                    }, {
+                    "name": "black",
+                    "colors":"#000000"
+                    }, {
+                    "name": "green",
+                    "colors":"#aadf10"
+                    }
+                ],				
+                "title": {
+                    "caption": "ÌïòÎ∞òÍ∏∞ ÏÇ¨ÏõêÎ≥Ñ ÌåêÎß§ Ïã§Ï†Å ÌòÑÌô©",
+                    "styles": {
+                        "textColor": "#f00000"
+                    },
+                    "subTitle":{
+                        "position": "bottom",
+                        "text": "Î™©Ìëú: Ï†ÑÏõîÎåÄÎπÑ 10% Ïù¥ÏÉÅ",
+                        "styles": {
+                            "textAlign": "center",
+                            "textColor": "#2ab6da"				
+                        }
+                    }
+                },
+                "yAxes": {
+                    "title": {
+                        "styles":{
+                            "visible": false
+                        }
+                    },
+                    "categories": ["Ïª¥Ìì®ÌÑ∞", "Î™®ÎãàÌÑ∞", "ÌÇ§Î≥¥Îìú", "ÎßàÏö∞Ïä§", "Î™®ÎãàÌÑ∞Î∞õÏπ®ÎåÄ"]
+                },
+                "xAxes": {
+                    "title": {
+                        "caption": "Ïã§Ï†ú ÌåêÎß§Ïã§Ï†Å",
+                        "styles":{
+                            "textColor": "#389f2c"
+                        }
+                    },
+                    "baseValue": 0,
+                    "styles": {
+                        "grid": {
+                            "stroke": "#18000000"
+                        }
+                    }
+                },
+                "seriesGroups": {
+                    "name": "group1",
+                    "stackMode": "normal",
+                    "label": {
+                        "styles": {
+                        },
+                        "items": [
+                        ]
+                    }
+                },
+                "series": [{
+                    "name": "ÏòÅÏóÖÏÇ¨Ïõê1",
+                    "group": "group1",
+                    "items": [17, 13, 16, 13, 17],
+                    "styles": {
+                        "fill": "pal(blue)",
+                        "fillAlpha": 0.7,
+                        "strokeAlpha": 1,
+                        "label": {
+                            "horizontalAlign": "left",
+                            "textColor": "#eeeeee"
+                        }
+                    },
+                    "animations": [{
+                        "property": "mask"
+                    }]
+                    }, {
+                    "name": "ÏòÅÏóÖÏÇ¨Ïõê2",
+                    "group": "group1",
+                    "items": [20, 20, 20, 20, 20],
+                    "styles": {
+                        "fill": "pal(black)",
+                        "fillAlpha": 0.7,
+                        "strokeAlpha": 1,
+                        "label": {
+                            "horizontalAlign": "left",
+                            "textColor": "#dddddd"
+                        }
+                    },
+                    "animations": [{
+                        "property": "mask"
+                    }]
+                    }, {
+                    "name": "ÏòÅÏóÖÏÇ¨Ïõê3",
+                    "group": "group1",
+                    "items": [13, 11, 20, 12, 11],
+                    "styles": {
+                        "fill": "pal(green)",
+                        "fillAlpha": 0.7,
+                        "strokeAlpha": 1,
+                        "label": {
+                            "horizontalAlign": "left",
+                            "textColor": "#008800"
+                        }
+                    },
+                    "animations": [{
+                        "property": "mask"
+                    }]
+                }],
+                "legend": {
+                }
+            }
+        );
 });
+    
